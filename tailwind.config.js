@@ -3,7 +3,7 @@ import colors from "tailwindcss/colors";
 
 export default {
 	content: [
-		"./index.html",
+		"./app/index.html",
 		"./app/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
@@ -13,5 +13,6 @@ export default {
 			}
 		},
 	},
+	darkMode: "class",
 	plugins: [],
 };
