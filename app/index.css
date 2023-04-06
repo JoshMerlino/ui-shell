@@ -9,7 +9,3 @@ body {
 code {
 	font-family: 'Roboto Mono', monospace;
 }
-
-:focus-visible {
-	outline: none!important;
-}

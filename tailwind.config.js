@@ -9,7 +9,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				"primary": { ...colors.blue, DEFAULT: colors.blue[500] }
+				"primary": { ...colors.blue, DEFAULT: colors.blue[500] },
+				"success": { ...colors.green, DEFAULT: colors.green[500] },
+				"warn": { ...colors.amber, DEFAULT: colors.amber[500] },
+				"error": { ...colors.red, DEFAULT: colors.red[500] },
 			}
 		},
 	},
